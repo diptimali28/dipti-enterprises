@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    min-height: 40vh;
+    background: linear-gradient(135deg, #0f4c81, #1b6ca8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 12px 0 20px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background: white;
+    color: #0d6efd;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* CARD SECTIONS */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #0d6efd;
+}
+
+/* SERVICES GRID */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.services-grid div {
+    background: #eef3ff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* MAP */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+/* HERO IMAGE */
+.hero {
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("images/ac.jpg") center/cover no-repeat;
+}
+
+/* SERVICES WITH IMAGES */
+.service-box {
+    background: #eef3ff;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.service-box p {
+    padding: 10px;
+    font-weight: 500;
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
+.charges {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #f9fbff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.charges h2 {
+    color: #0f4c81;
+    margin-bottom: 15px;
+}
+
+.charges p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.charges ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.charges li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+.hero {
+    background: linear-gradient(135deg, #0f4c81, #1b6ca8) !important;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: #eef4ff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  margin-top: 12px;
+  font-size: 16px;
+}
+.brands, .service-area {
+  background: #f8f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.brands h2, .service-area h2 {
+  color: #1a4dff;
+}
